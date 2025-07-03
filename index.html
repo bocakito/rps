@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RPS</title>
+</head>
+
+    <body>
+        <div class = "fullPage"> 
+            <div class = "headerWrapper">
+                <h1 id = "RPSHeader">Rock, Paper, Scissors</h1>
+            </div>    
+            <div class = "funnyContainer">
+                <div class = "gameButton">
+                    <button id ="btnRock" class = "playButton">ROCK</button>
+                    <button id ="btnPaper" class = "playButton">PAPER</button>
+                    <button id ="btnScissors" class = "playButton">SCISSORS</button>
+                </div>    
+            </div>
+            <div class = "scoreboard">
+                <p class = "scoreText" id = "wins">Wins: 0</p>
+                <p class = "scoreText" id = "losses">Losses: 0</p>
+                <p class = "scoreText" id = "ties">Ties: 0</p>
+            </div> 
+            <div class ="resetContainer">
+                <p id = "ComputerMove"></p>
+                <button id = "btnReset" class = "playButton">RESET SCORE</button>
+            </div>
+        </div>    
+        <script src="script.js"></script>
+    </body>
+</html>
