@@ -112,6 +112,12 @@ body{
     box-shadow: 0 0 30px 3px rgb(248, 200, 189);
     transition: box-shadow 0.3s;
 }
+#btnReset:disabled{
+    background-color: rgb(200, 200, 200);
+    box-shadow: 0 0 15px 4px rgba(11, 4, 53, 0.7);
+    cursor: not-allowed;
+    pointer-events: none;
+}
 #btnReset.moveBtnReset{
     transform: translateY(50px);
 }
