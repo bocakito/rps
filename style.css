@@ -146,3 +146,52 @@ body{
 .expand{
     height: 150px;
 }
+@media (max-width: 600px) {
+    .fullPage {
+        height: auto;
+        padding: 10px 0;
+    }
+    .headerWrapper h1 {
+        font-size: 1.5rem;
+    }
+    .gameButton {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5px;
+        width: 100%;
+        align-items: center;
+    }
+    .gameButton button {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .scoreboard {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0;
+        align-items: center;
+    }
+    .scoreText {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .resetContainer {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+    }
+    #btnReset {
+        width: 90vw;
+        max-width: 200px;
+        height: 45px;
+        font-size: 1rem;
+    }
+    #ComputerMove {
+        font-size: 0.95rem;
+        padding: 5px 0;
+    }
+}
